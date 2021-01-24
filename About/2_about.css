@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Times New Roman', Times, serif ;
+    background: url(2_about_.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.container{
+    height: 80vh;
+    width: 35%;
+    
+    position: absolute;
+    top: 40%;
+    left:30%;
+    transform: translate(-50%,-50%);
+}
+.container h1{
+    color: black;
+    
+    font-size: 40px;
+}
+.container p{
+    color: black;
+    margin-top: 40px;
+    font-size: 30px;
+    align-items: center;
+}
