@@ -1,0 +1,30 @@
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{font-family: 'Roboto-Regular';background: #fff;}
+header {
+    height: 60px;
+    background: rgb(230, 238, 240);
+    color: #353a66;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    box-shadow: 10px 0 5px #969191;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+.container{
+    height: 80vh;
+    width: 65%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.container p{
+    color: rgb(102, 98, 98);
+    margin-top: 60px;
+    font-size: 20px;
+}
