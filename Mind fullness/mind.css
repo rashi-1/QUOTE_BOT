@@ -1,0 +1,364 @@
+body{
+    margin:0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(4_mind.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 15s;
+    position: absolute;
+    animation-name: animate;
+    animation-direction:normal;
+    animation-duration:60s ;
+    animation-fill-mode:backwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function:ease-out;
+}   
+.box{
+    font-size: 45px;
+    font-weight: bold;
+    color: #ffffff;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    top:40%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.b1{
+    animation: ani1 60s infinite;
+}
+.b2{
+    animation: ani2 60s infinite;
+}
+.b3{
+    animation: ani3 60s infinite;
+}
+.b4{
+    animation: ani4 60s infinite;
+}
+.b5{
+    animation: ani5 60s infinite;
+}
+.b6{
+    animation: ani6 60s infinite;
+}
+.b7{
+    animation: ani7 60s infinite;
+}
+.b8{
+    animation: ani8 60s infinite;
+}
+.b9{
+    animation: ani9 50s infinite;
+}
+.b10{
+    animation: ani10 50s infinite;
+}
+.b11{
+    animation: ani11 50s infinite;
+}
+.b12{
+    animation: ani12 50s infinite;
+}
+.b13{
+    animation: ani13 50s infinite;
+}
+.b14{
+    animation: ani14 50s infinite;
+}
+.b15{
+    animation: ani15 50s infinite;
+}
+.b16{
+    animation: ani16 50s infinite;
+}
+.b17{
+    animation: ani17 50s infinite;
+}
+.b18{
+    animation: ani18 50s infinite;
+}
+.b19{
+    animation: ani19 50s infinite;
+}
+.b20{
+    animation: ani20 50s infinite;
+}
+
+@keyframes ani1{
+    0%{
+        opacity: 0;
+    }
+    2.5%{
+        opacity: 1;
+    }
+    5%{
+        opacity: 0;
+    }
+
+}
+@keyframes ani2{
+    5%{
+        opacity: 0;
+    }
+    7.5%{
+        opacity: 1;
+    }
+    10%{
+        opacity: 0;
+    }
+
+}
+@keyframes ani3{
+    10%{
+        opacity: 0;
+    }
+    12.5%{
+        opacity: 1;
+    }
+    15%{
+        opacity: 0;
+    }
+
+}
+@keyframes ani4{
+    15%{
+        opacity: 0;
+    }
+    17.5%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 0;
+    }
+
+}
+@keyframes ani5{
+    20%{
+        opacity: 0;
+    }
+    22.5%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+
+}
+@keyframes ani6{
+    25%{
+        opacity: 0;
+    }
+    27.5%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 0;
+    }
+
+}
+@keyframes ani7{
+    30%{
+        opacity: 0;
+    }
+    32.5%{
+        opacity: 1;
+    }
+    35%{
+        opacity: 0;
+    }
+
+}
+@keyframes ani8{
+    35%{
+        opacity: 0;
+    }
+    37.5%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+
+}
+@keyframes ani9{
+    40%{
+        opacity: 0;
+    }
+    42.5%{
+        opacity: 1;
+    }
+    45%{
+        opacity: 0;
+    }
+
+}
+@keyframes ani10{
+    45%{
+        opacity: 0;
+    }
+    47.5%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+
+}
+@keyframes ani11{
+    50%{
+        opacity: 0;
+    }
+    52.5%{
+        opacity: 1;
+    }
+    55%{
+        opacity: 0;
+    }
+
+}
+@keyframes ani12{
+    55%{
+        opacity: 0;
+    }
+    57.5%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+
+}
+@keyframes ani13{
+    60%{
+        opacity: 0;
+    }
+    62.5%{
+        opacity: 1;
+    }
+    65%{
+        opacity: 0;
+    }
+
+}@keyframes ani14{
+    65%{
+        opacity: 0;
+    }
+    67.5%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+    }
+
+}@keyframes ani15{
+    70%{
+        opacity: 0;
+    }
+    72.5%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0;
+    }
+
+}@keyframes ani16{
+    75%{
+        opacity: 0;
+    }
+    77.5%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 0;
+    }
+
+}@keyframes ani17{
+    80%{
+        opacity: 0;
+    }
+    82.5%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 0;
+    }
+
+}@keyframes ani18{
+    85%{
+        opacity: 0;
+    }
+    87.5%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+    }
+
+}@keyframes ani19{
+    90%{
+        opacity: 0;
+    }
+    92.5%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 0;
+    }
+
+}@keyframes ani20{
+    95%{
+        opacity: 0;
+    }
+    97.5%{
+        opacity: 1;
+    }
+    1000%{
+        opacity: 0;
+    }
+
+}
+@keyframes animate
+{
+    0%{
+        background-image: url(11_mind.jpg);
+    }
+    10%{
+        background-image: url(10_mind.jpg);
+    }
+    20%{
+        background-image: url(16_mind.jpg);
+    }
+    30%{
+        background-image: url(13_mind.jpg);
+    }
+    40%{
+        background-image: url(7_mind.jpg);
+    }
+    50%{
+        background-image: url(14_mind.jpg);
+    }
+    60%{
+        background-image: url(8_mind.jpg);
+    }
+    70%{
+        background-image: url(15_mind.jpg);
+    }
+    80%{
+        background-image: url(9_mind.jpg);
+    }
+    90%{
+        background-image: url(4_mind.jpg);
+    }
+    100%{
+        background-image: url(10_mind.jpg);
+    }
+}
